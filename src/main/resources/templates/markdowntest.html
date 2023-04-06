@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min.css}">
+</head>
+<body>
+<div class="js-toc-content" content="" ">
+
+
+</div>
+<link rel="stylesheet" href="../static/lib/editormd/css/editormd.preview.min.css" th:href="@{/lib/editormd/css/editormd.preview.min.css}">
+<script src="../static/lib/jquery-3.6.0.min.js" th:src="@{/lib/jquery-3.6.0.min.js}"></script>
+<script src="../static/lib/editormd/lib/marked.min.js"></script>
+<script src="../static/lib/editormd/lib/prettify.min.js"></script>
+<script src="../static/lib/editormd/lib/raphael.min.js"></script>
+<script src="../static/lib/editormd/lib/underscore.min.js"></script>
+<script src="../static/lib/editormd/lib/sequence-diagram.min.js"></script>
+<script src="../static/lib/editormd/lib/flowchart.min.js"></script>
+<script src="../static/lib/editormd/lib/jquery.flowchart.min.js"></script>
+<script src="../static/lib/editormd/lib/underscore.min.js"></script>
+<script src="../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
+<script src="../static/js/semantic.min.js" th:src="@{/lib/semanticUI/semantic.min.js}"></script>
+
+</body>
+
+<script>
+    var showEditor
+    $(function (){
+        showEditor = editormd.markdownToHTML("js-toc-content",{
+            htmlDecode : "style,script,iframe",
+            emoji: true,
+            taskList: true,
+            tocm: true,
+            tex: true,
+            flowChart: true,
+            sequenceDiagram: true,
+            codeFold: true
+        });
+    });
+</script>
+</html>

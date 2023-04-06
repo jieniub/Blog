@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我</title>
+  <link rel="stylesheet" href="../static/css/semantic.min.css" th:href="@{/css/semantic.min.css}">
+  <link rel="stylesheet" href="../static/css/animate.min.css" th:href="@{/css/animate.min.css}">
+  <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+<!--导航-->
+<nav th:replace="_fragments :: menu(5)" class="ui  inverted attached segment m-padding-tb-mini m-shadow-small">
+  <div class="ui container">
+    <div class="ui m-margin-shrink inverted secondary stackable menu animate ">
+      <h2 class="ui teal header item" >blog</h2>
+      <a href="#" class="m-item m-mobile-hide item"><i class="home icon"></i>首页</a>
+      <a href="#" class="m-item m-mobile-hide item"><i class="idea icon"></i>分类</a>
+      <a href="#" class="m-item m-mobile-hide item"><i class="tags icon"></i>标签</a>
+      <a href="#" class="m-item m-mobile-hide item"><i class="clone icon"></i>归档</a>
+      <a href="#" class="m-item m-mobile-hide item"><i class="info icon"></i>关于我</a>
+      <div class="right item m-mobile-hide">
+        <div class="ui icon inverted transparent input m-margin-tb-tiny">
+          <input style="color:#ffffff80" type="text" placeholder="Search...">
+          <i class="search inverted link icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+    <i class="sidebar icon"></i>
+  </a>
+</nav>
+
+
+
+<!--内容-->
+<div class="m-container m-padding-tb margin-top m-transparent-mini">
+  <div class="ui container">
+    <div class="ui stackable grid">
+
+      <div class="sixth wide column">
+        <div class="ui top attached segment">
+          <div class="about-header stackable animate__animated animate__fadeInDown">关于我</div>
+        </div>
+        <div class="ui attached segment about-font">
+          <img class="ui avatar large image about-img animate__animated animate__fadeIn" th:src="@{/images/avatar.png}" src="../static/images/avatar.png">
+          <p class="about-name animate__animated animate__fadeInUpBig">jiejay</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p class="about-detail animate__animated animate__fadeInUp">20级软件工程Java小菜鸡一枚</p>
+          <br>
+          <br>
+          <div class="ui bottom segment animate__animated animate__flipInX">
+            <div class="about-links">
+              <a href="#" class="ui circular big icon button"><i class="github icon"></i></a>
+              <a href="#" id="wcButton" class="ui circular big icon button " style="margin-left: 20px"><i class="weixin icon"></i></a>
+              <a href="#" id="qqNum" class="ui circular big icon button" style="margin-left: 20px" data-content="1376058561"><i class="qq icon"></i></a>
+            </div>
+          </div>
+          <br>
+
+          <div class="ui horizontal divider animate__animated animate__zoomIn">
+            <span class="" style="font-size: large">简介</span>
+          </div>
+
+          <div class="animate__animated animate__zoomIn" align="center" style="font-size: large;font-family: 华光行书_CNKI">
+            <p>jiejay，00后</p>
+            <p>喜欢运动，爱好篮球，喜欢音乐，喜欢周杰伦</p>
+            <p>热爱编程，但想拯救秃头</p>
+            <p>制作该网站为了检验自己所学知识，同时也记录自己学习历程</p>
+          </div>
+        </div>
+        <div class="ui wechatQR flowing popup transition hidden">
+          <img src="../static/images/Wechat.png" th:src="@{/images/Wechat.png}" alt="" class="ui bordered image" style="width: 120px">
+    </div>
+  </div>
+</div>
+<!--底部-->
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padding-tb-massive">
+  <div class="ui center aligned container">
+    <div class="ui inverted divided stackable grid">
+      <div class="three wide column">
+        <div class="ui inverted link list">
+          <div class="item " >
+            <img src="../static/images/Wechat.png" class="ui rounded image" alt="" style="width: 120px;">
+          </div>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">####</a>
+          <a href="#" class="item">####</a>
+          <a href="#" class="item">####</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+        <div class="ui inverted link list">
+          <a href="#" class="item">####</a>
+          <a href="#" class="item">####</a>
+          <a href="#" class="item">####</a>
+        </div>
+      </div>
+      <div class="seven wide column">
+        <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+        <p class="m-opacity-mini m-text-thin m-text-spaced">这是我的个人博客，会方向关于编程、写作、思考等方面的内容，希望这些内容你们有所帮助</p>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-opacity-tiny m-text-thin m-text-spaced">© 2021 - 2022 designed By jiejun</p>
+  </div>
+</footer>
+  </div>
+</div>
+<div th:replace="_fragments :: script">
+  <script src="../static/lib/jquery-3.6.0.js"></script>
+  <script src="../static/js/semantic.min.js" th:src="@{/js/semantic.min.js}"></script>
+</div>
+
+
+<script>
+  $('.menu.toggle').click(function(){
+    $('.m-item').toggleClass('m-mobile-hide');
+  });
+  $('#qqNum').popup();
+
+  $('#wcButton').popup({
+    popup: $('.wechatQR.popup'),
+    position: 'bottom center'
+  });
+
+
+
+
+</script>
+
+</body>
+</html>

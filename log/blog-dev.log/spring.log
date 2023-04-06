@@ -1,0 +1,50 @@
+2022-06-16 10:53:05.222  INFO 13788 --- [restartedMain] com.ljj.BlogApplication                  : Starting BlogApplication using Java 1.8.0_281 on LAPTOP-AAKTDV0J with PID 13788 (C:\Users\安东尼\IdeaProjects\Blog\target\classes started by 安东尼 in C:\Users\安东尼\IdeaProjects\Blog)
+2022-06-16 10:53:05.238 DEBUG 13788 --- [restartedMain] com.ljj.BlogApplication                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+2022-06-16 10:53:05.238  INFO 13788 --- [restartedMain] com.ljj.BlogApplication                  : The following 1 profile is active: "dev"
+2022-06-16 10:53:05.316  INFO 13788 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\安东尼\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/%e5%ae%89%e4%b8%9c%e5%b0%bc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2022-06-16 10:53:05.316  INFO 13788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-16 10:53:05.316  INFO 13788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-16 10:53:06.191  INFO 13788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-16 10:53:06.269  INFO 13788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2022-06-16 10:53:07.066  INFO 13788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-16 10:53:07.066  INFO 13788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-16 10:53:07.066  INFO 13788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-16 10:53:07.160  INFO 13788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-16 10:53:07.160  INFO 13788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
+2022-06-16 10:53:07.301  INFO 13788 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-16 10:53:07.363  INFO 13788 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-06-16 10:53:07.535  INFO 13788 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-16 10:53:07.644  INFO 13788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-16 10:53:09.160  INFO 13788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-16 10:53:09.176  INFO 13788 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-16 10:53:10.859  INFO 13788 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-16 10:53:10.859  INFO 13788 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-16 10:53:11.885  WARN 13788 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-16 10:53:12.237  INFO 13788 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-16 10:53:12.652  INFO 13788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-16 10:53:12.691  INFO 13788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-16 10:53:12.701  INFO 13788 --- [restartedMain] com.ljj.BlogApplication                  : Started BlogApplication in 8.44 seconds (JVM running for 10.225)
+2022-06-16 10:53:15.803  INFO 13788 --- [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-16 10:53:15.804  INFO 13788 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-16 10:53:15.804  INFO 13788 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-06-16 10:53:15.832  INFO 13788 --- [http-nio-8080-exec-7] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.preindex', args=[]}
+2022-06-16 10:53:15.841  INFO 13788 --- [http-nio-8080-exec-7] com.ljj.aspact.LogAspect                 : Result : {}preindex
+2022-06-16 10:53:21.316  INFO 13788 --- [http-nio-8080-exec-8] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/index', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.index', args=[Page request [number: 0, size 6, sort: updateDate: DESC], BlogQuery(title=null, typeId=null, recommend=false), {blogQuery=BlogQuery(title=null, typeId=null, recommend=false), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2022-06-16 10:53:22.099  WARN 13788 --- [http-nio-8080-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-06-16 10:53:22.222  INFO 13788 --- [http-nio-8080-exec-8] com.ljj.aspact.LogAspect                 : Result : {}index
+2022-06-16 10:53:23.222  INFO 13788 --- [http-nio-8080-exec-5] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.newBlogs', args=[{}]}
+2022-06-16 10:53:23.491  INFO 13788 --- [http-nio-8080-exec-5] com.ljj.aspact.LogAspect                 : Result : {}_fragments :: newBlogList
+2022-06-16 10:53:25.990  INFO 13788 --- [http-nio-8080-exec-2] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/blog/122', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.blog', args=[122, {}]}
+2022-06-16 10:53:26.307  INFO 13788 --- [http-nio-8080-exec-2] com.ljj.aspact.LogAspect                 : Result : {}blog
+2022-06-16 10:53:26.623  INFO 13788 --- [http-nio-8080-exec-3] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.newBlogs', args=[{}]}
+2022-06-16 10:53:26.641  INFO 13788 --- [http-nio-8080-exec-1] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/comments/122', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.CommentController.comments', args=[122, {}]}
+2022-06-16 10:53:26.858  INFO 13788 --- [http-nio-8080-exec-1] com.ljj.aspact.LogAspect                 : Result : {}blog :: commentList
+2022-06-16 10:53:26.891  INFO 13788 --- [http-nio-8080-exec-3] com.ljj.aspact.LogAspect                 : Result : {}_fragments :: newBlogList
+2022-06-16 10:53:31.900  INFO 13788 --- [http-nio-8080-exec-7] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/archives/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.ArchiveShowController.archives', args=[{}]}
+2022-06-16 10:53:32.658  INFO 13788 --- [http-nio-8080-exec-7] com.ljj.aspact.LogAspect                 : Result : {}archives
+2022-06-16 10:53:32.783  INFO 13788 --- [http-nio-8080-exec-2] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.newBlogs', args=[{}]}
+2022-06-16 10:53:33.000  INFO 13788 --- [http-nio-8080-exec-2] com.ljj.aspact.LogAspect                 : Result : {}_fragments :: newBlogList
+2022-06-16 11:04:00.571  INFO 13788 --- [http-nio-8080-exec-4] com.ljj.aspact.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.ljj.web.indexController.preindex', args=[]}
+2022-06-16 11:04:00.571  INFO 13788 --- [http-nio-8080-exec-4] com.ljj.aspact.LogAspect                 : Result : {}preindex
+2022-06-16 14:52:49.796  WARN 13788 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h9s581ms475µs900ns).
+2022-06-16 16:01:45.260  WARN 13788 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m55s213ms170µs600ns).

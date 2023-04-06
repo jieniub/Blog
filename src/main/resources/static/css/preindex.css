@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background: url("../images/background.png") no-repeat fixed !important;
+    background-size: cover !important;
+
+}
+.color{
+    background-color: rgba(0,0,0,.50) !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+}
+.font{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    width: 500px;
+    height: 300px;
+    margin-bottom: -210px;
+    margin-left: -250px;
+    color: whitesmoke;
+    font-family: 华光行草_CNKI;
+    font-size: xx-large;
+    font-weight: bold;
+    /*margin: 0 auto;*/
+}
+
+.p-name{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    width: 100px;
+    height: 50px;
+    margin-left: -70px;
+    margin-bottom: 80px;
+}
+.p-motto{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    width: 500px;
+    height: 50px;
+    margin-left: -250px;
+    margin-bottom: -10px;
+}
+.p-img{
+    width: 3.3em !important;
+    height: 3.3em !important;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    /*width: 100px;*/
+    /*height: 100px;*/
+    margin-left: -75px;
+    margin-bottom: -125px;
+}
+.p-button{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -65px !important;
+    margin-bottom: -85px !important;
+}
+.beian{
+    position: absolute;
+    color: #3E7087;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -135px !important;
+    margin-bottom: -327px !important;
+}
+
+
